@@ -34,3 +34,10 @@ Customer 1 buys 1 of snack 2. Print Customer 1 Cash on Hand. Print quantity of s
 Snack 3 gets 12 more. Print quantity of snack 3.<br>
 Customer 2 buys 3 of snack 3. Print Customer 2 Cash on hand. Print quantity of snack 3.<br>
 <br>
+
+javac snackBarApp/*.java
+
+jar cvfe SnackBarApp.jar snackBarApp.Main snackBarApp/*.class
+
+java -jar SnackBarApp.jar
+
