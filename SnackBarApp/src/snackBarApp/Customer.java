@@ -24,6 +24,11 @@ public class Customer
 	{
 		return cashOnHand;
 	}
+	
+	public void buySnack(double cost)
+	{
+		cashOnHand -= cost;
+	}
 
 	public String getName() 
 	{
