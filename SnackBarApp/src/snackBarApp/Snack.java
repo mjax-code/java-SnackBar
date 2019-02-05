@@ -39,13 +39,14 @@ public class Snack
 		quantity += amount;
 	}
 
-	public void buySnack(int amount)
+	public double buySnack(int amount)
 	{
 		quantity -= amount;
-	}
-
-	public double getCost(int amount)
-	{
 		return amount * cost;
 	}
+
+	// public double getCost(int amount)
+	// {
+	// 	return amount * cost;
+	// }
 }
